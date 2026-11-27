@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Microsoft Learn English",
+  "name": "Learn in English",
   "version": "1.0.0",
   "description": "Automatically redirects localized Microsoft Learn pages to English.",
   "permissions": [
