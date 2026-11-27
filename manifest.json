@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Microsoft Learn English",
+  "version": "1.0.0",
+  "description": "Automatically redirects localized Microsoft Learn pages to English.",
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://learn.microsoft.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "language_redirect",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}
